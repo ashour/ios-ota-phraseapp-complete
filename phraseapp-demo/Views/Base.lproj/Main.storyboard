@@ -195,9 +195,12 @@
                         <viewLayoutGuide key="safeArea" id="0De-pR-Bfq"/>
                     </view>
                     <connections>
+                        <outlet property="artistNameHeaderLabel" destination="2aL-Sw-YDC" id="JmR-P9-bnn"/>
                         <outlet property="artistNameLabel" destination="Oq4-M1-V4v" id="d1a-3b-J7t"/>
                         <outlet property="copyrightLabel" destination="Fkc-BV-4kJ" id="FbF-fa-sgQ"/>
+                        <outlet property="releaseDateHeaderLabel" destination="fBw-uo-hQg" id="gtI-cT-coP"/>
                         <outlet property="releaseDateLabel" destination="D5B-yd-eVc" id="uQm-Kx-zob"/>
+                        <outlet property="trackNameHeaderLabel" destination="eHz-f2-mcI" id="yzG-eN-Wfe"/>
                         <outlet property="trackNameLabel" destination="7vB-QB-d6F" id="yBV-JW-rgW"/>
                     </connections>
                 </viewController>

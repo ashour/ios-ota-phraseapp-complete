@@ -6,3 +6,11 @@
   Copyright © 2019 Mohammad Ashour. All rights reserved.
 */
 "copyright" = "Copyright © %@ %@. All rights reserved";
+
+"trackListTitle" = "Short Circuit";
+
+"trackNameHeader" = "Track";
+
+"artistNameHeader" = "Artist";
+
+"releaseDateHeader" = "Release Date";

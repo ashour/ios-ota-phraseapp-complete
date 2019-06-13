@@ -19,10 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1126C72E229ADABB0053AB71 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
-		1126C72F229ADABB0053AB71 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		1126C731229ADB480053AB71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		1126C733229ADB4B0053AB71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1126C737229B1BC30053AB71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1126C739229B1BC40053AB71 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11A15D072299B1A000E593FA /* phraseapp-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phraseapp-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,8 +198,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				11A15D0F2299B1A000E593FA /* Base */,
-				1126C72E229ADABB0053AB71 /* ar */,
-				1126C731229ADB480053AB71 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -212,8 +206,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				11A15D142299B1A100E593FA /* Base */,
-				1126C72F229ADABB0053AB71 /* ar */,
-				1126C733229ADB4B0053AB71 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -10,6 +10,12 @@ import UIKit
 
 class TrackDetailsViewController: UIViewController {
     
+    @IBOutlet weak var trackNameHeaderLabel: UILabel!
+    
+    @IBOutlet weak var artistNameHeaderLabel: UILabel!
+    
+    @IBOutlet weak var releaseDateHeaderLabel: UILabel!
+    
     @IBOutlet weak var trackNameLabel: UILabel!
     
     @IBOutlet weak var artistNameLabel: UILabel!
@@ -24,13 +30,19 @@ class TrackDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         if let track = track {
+            trackNameHeaderLabel.text = getLocalizedHeaderText(key: "trackNameHeader")
+            
+            artistNameHeaderLabel.text = getLocalizedHeaderText(key: "artistNameHeader")
+            
+            releaseDateHeaderLabel.text = getLocalizedHeaderText(key: "releaseDateHeader")
+            
             trackNameLabel.text = track.trackName
         
             artistNameLabel.text = track.artistName
         
             releaseDateLabel.text = track.releaseDate
             
-            copyrightLabel.text = getCopyrighText(artistName: track.artistName)
+            copyrightLabel.text = getCopyrightText(artistName: track.artistName)
         }
     }
     
@@ -38,7 +50,12 @@ class TrackDetailsViewController: UIViewController {
         self.track = track
     }
     
-    fileprivate func getCopyrighText(artistName: String) -> String {
+    fileprivate func getLocalizedHeaderText(key: String) -> String {
+        return NSLocalizedString(key, comment: "")
+            .localizedUppercase
+    }
+    
+    fileprivate func getCopyrightText(artistName: String) -> String {
         let format = NSLocalizedString("copyright", comment: "")
         
         let currentYear = "\(Calendar.current.component(.year, from: Date()))"

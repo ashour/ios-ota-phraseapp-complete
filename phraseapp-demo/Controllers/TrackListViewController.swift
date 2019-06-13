@@ -17,6 +17,8 @@ class TrackListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = NSLocalizedString("trackListTitle", comment: "")
                 
         tableView.dataSource = self
         
