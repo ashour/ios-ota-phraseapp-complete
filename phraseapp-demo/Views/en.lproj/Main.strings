@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "ARTIST"; ObjectID = "2aL-Sw-YDC"; */
+"2aL-Sw-YDC.text" = "ARTIST";
+
+/* Class = "UILabel"; text = "Track name"; ObjectID = "3ca-zp-Rbm"; */
+"3ca-zp-Rbm.text" = "Track name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7vB-QB-d6F"; */
+"7vB-QB-d6F.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D5B-yd-eVc"; */
+"D5B-yd-eVc.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Short Circuit"; ObjectID = "FBq-li-CNh"; */
+"FBq-li-CNh.title" = "Short Circuit";
+
+/* Class = "UILabel"; text = "Release date"; ObjectID = "O8D-la-Pey"; */
+"O8D-la-Pey.text" = "Release date";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Oq4-M1-V4v"; */
+"Oq4-M1-V4v.text" = "Label";
+
+/* Class = "UILabel"; text = "99999 new tracks"; ObjectID = "Zof-Qh-mUL"; */
+"Zof-Qh-mUL.text" = "99999 new tracks";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "cL2-YV-w5P"; */
+"cL2-YV-w5P.title" = "Back";
+
+/* Class = "UILabel"; text = "TRACK"; ObjectID = "eHz-f2-mcI"; */
+"eHz-f2-mcI.text" = "TRACK";
+
+/* Class = "UILabel"; text = "RELEASE"; ObjectID = "fBw-uo-hQg"; */
+"fBw-uo-hQg.text" = "RELEASE";
+
+/* Class = "UIViewController"; title = "Track Details"; ObjectID = "rpo-bu-Gjf"; */
+"rpo-bu-Gjf.title" = "Track Details";
+
+/* Class = "UILabel"; text = "Artist name"; ObjectID = "xck-vO-ry1"; */
+"xck-vO-ry1.text" = "Artist name";

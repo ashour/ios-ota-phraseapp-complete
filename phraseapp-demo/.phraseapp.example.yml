@@ -1,0 +1,23 @@
+phraseapp:
+  access_token: <your_access_token>
+  project_id: <your_project_id>
+  push:
+    sources:
+    - file: ./Views/en.lproj/Main.strings
+      params:
+        locale_id: fd935424a9ef2dfd054d982ccb7a8064
+        file_format: strings
+    - file: ./en.lproj/Localizable.strings
+      params:
+        locale_id: fd935424a9ef2dfd054d982ccb7a8064
+        file_format: strings
+  pull:
+    targets:
+    - file: ./Views/ar.lproj/Main.strings
+      params:
+        locale_id: 9c380148d7c1827b6c1db12f0b1a9da8
+        file_format: strings
+    - file: ./ar.lproj/Localizable.strings
+      params:
+        locale_id: 9c380148d7c1827b6c1db12f0b1a9da8
+        file_format: strings

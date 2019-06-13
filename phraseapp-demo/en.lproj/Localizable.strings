@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  phraseapp-demo
+
+  Created by Mohammad Ashour on 2019-05-26.
+  Copyright © 2019 Mohammad Ashour. All rights reserved.
+*/
+"copyright" = "Copyright © %@ %@. All rights reserved";
