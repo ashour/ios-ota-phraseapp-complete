@@ -29,6 +29,8 @@ class TrackDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = NSLocalizedString("trackDetailsTitle", comment: "")
+        
         if let track = track {
             trackNameHeaderLabel.text = getLocalizedHeaderText(key: "trackNameHeader")
             
