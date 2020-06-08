@@ -1,3 +1,7 @@
+**⚠️ This repo is no longer maintained! Please visit https://github.com/PhraseApp-Blog/ios-ota-phraseapp-complete for the up-to-date repo.**
+
+---
+
 # A Working Example of an iOS App with PhraseApp Over the Air Translations
 This repo and app are companions to a PhraseApp blog article.
 
